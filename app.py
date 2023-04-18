@@ -20,12 +20,12 @@ st.write("Result")
 #a=features.loc[0,'NUM1']
 #st.write(df.iloc[0,0])
 if df.iloc[0,0]>df.iloc[0,1]:
-	if  df.iloc[0,0]>df.iloc[0,2]
+	if  df.iloc[0,0]>df.iloc[0,2]:
 		st.write(df.iloc[0,0],"is greatest")
 	else:
 		st.write(df.iloc[0,2],"is greatest" )
 else:
-	if  df.iloc[0,1]>df.iloc[0,2]
+	if  df.iloc[0,1]>df.iloc[0,2]:
 		st.write(df.iloc[0,1],"is greatest")
 	else:
 		st.write(df.iloc[0,2],"is greatest" )
